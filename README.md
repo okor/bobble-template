@@ -1,7 +1,14 @@
 BOBBLE TEMPLATE
 ===============
 
-Easily monitor all your sites on the cheap.
+Easily monitor all your sites on the cheap. This is a template for using the [bobble gem](http://github.com/ahfarmer/bobble). For more information, visit:
+
+[http://github.com/ahfarmer/bobble](http://github.com/ahfarmer/bobble)
+
+USAGE
+=====
+
+First clone this repo:
 
     git clone git://github.com/ahfarmer/bobble-template.git
     git remote rm origin
@@ -42,6 +49,8 @@ Sign up for Twilio and purchase a phone number (currently $1/month). Then:
     heroku config:add BOBBLE_TWILIO_TO_PHONENUMBER=<mobile number to receive notifications, i.e. +14155555555>
 
 
-After you've added your notifiers, just sit back and relax!
+After you've added your notifiers, just sit back and relax! You'll get either a text or an email when your site goes down.
+
+
 
 
